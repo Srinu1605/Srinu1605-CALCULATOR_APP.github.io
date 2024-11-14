@@ -1,0 +1,58 @@
+.btn{
+    background-color: dimgray;
+    color: white;
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+    
+}  
+.Header{
+    width: 200px;
+    height: 350px;
+    border: solid dimgray;
+    background-color: dimgray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #999;
+}
+.btn1{
+    height: 48px;
+    width: 48px;
+    background-color: dimgray;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color:dimgray;
+}
+.btn1:hover{
+    background-color:dimgrey;
+}
+.btn1:active{
+    background-color: dimgrey;
+}
+.btn:active{
+    background-color: dimgrey;
+}
+#display{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    text-align: right;
+    background-color: darkslategray;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: aqua
+}
